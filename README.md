@@ -11,6 +11,7 @@ TaskEase is a task management application designed to help users efficiently man
 - **Node.js**: For building the backend server.
 - **Express**: As the web framework for Node.js.
 - **TypeScript**: For type-safe JavaScript development.
+- **Docker**: For containerizing the application and ensuring consistent environments.
 
 ## Features
 
