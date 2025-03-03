@@ -1,87 +1,129 @@
-# TaskEase
-## Overview
+# TaskEase 📝
 
-TaskEase is a task management application designed to help users efficiently manage their tasks and projects. This application is being developed as part of an academic project for the Software Engineering course. The primary goal of TaskEase is to provide a seamless and intuitive user experience for task management.
+<div align="center">
 
-## Technologies Used
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-- **Flutter**: For building the cross-platform mobile application.
-- **BLoC**: For state management in the Flutter application.
-- **PostgreSQL**: As the database for storing task-related data.
-- **Node.js**: For building the backend server.
-- **Express**: As the web framework for Node.js.
-- **TypeScript**: For type-safe JavaScript development.
-- **Docker**: For containerizing the application and ensuring consistent environments.
+A modern, intuitive task management application for efficient project organization.
 
-## Features
+[Features](#features) • [Installation](#installation) • [Documentation](#project-structure) • [Contributing](#contributing)
 
-- Create, update, and delete tasks.
-- Organize tasks into projects.
-- Set deadlines and reminders for tasks.
-- Mark tasks as complete.
-- View tasks in a calendar view.
-- Sync tasks across multiple devices.
+</div>
 
-## Project Structure
+## 🎯 Overview
 
-The project is divided into the following main components:
+TaskEase is a powerful task management application designed to help users efficiently manage their tasks and projects. This application is being developed as part of an academic project for the Software Engineering course, with a focus on providing a seamless and intuitive user experience.
 
-1. **Frontend**: Built using Flutter and BLoC for state management.
-2. **Backend**: Built using Node.js, Express, and TypeScript.
-3. **Database**: PostgreSQL for data storage.
+## ⚡ Features
 
-## Getting Started
+- ✨ Create, update, and delete tasks with ease
+- 📂 Organize tasks into projects
+- ⏰ Set deadlines and reminders
+- ✅ Track task completion status
+- 📅 View tasks in a calendar view
+- 🔄 Cross-device synchronization
+
+## 🛠️ Technologies Used
+
+- **Frontend**
+  - Flutter - Cross-platform mobile application framework
+  - BLoC - State management solution
+  
+- **Backend**
+  - Node.js - Server runtime environment
+  - Express - Web application framework
+  - TypeScript - Type-safe JavaScript development
+  
+- **Database & Infrastructure**
+  - PostgreSQL - Robust relational database
+  - Docker - Application containerization
+
+## 🏗️ Project Structure
+
+```
+taskease/
+├── frontend/          # Flutter mobile application
+├── backend/           # Node.js + Express server
+├── database/          # PostgreSQL schemas and migrations
+└── docs/             # Project documentation
+```
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
+Before you begin, ensure you have the following installed:
+
 - Flutter SDK
-- Node.js
+- Node.js (v14 or higher)
 - PostgreSQL
+- Docker (optional)
 
 ### Installation
 
-1. **Clone the repository**:
-     ```bash
-     git clone https://github.com/yourusername/taskease.git
-     cd taskease
-     ```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/codemanas/taskease.git
+   cd taskease
+   ```
 
-2. **Install Flutter dependencies**:
-     ```bash
-     flutter pub get
-     ```
+2. **Set up Frontend**
+   ```bash
+   cd frontend
+   flutter pub get
+   ```
 
-3. **Install Node.js dependencies**:
-     ```bash
-     cd backend
-     npm install
-     ```
+3. **Set up Backend**
+   ```bash
+   cd backend
+   npm install
+   ```
 
-4. **Set up PostgreSQL database**:
-     - Create a new PostgreSQL database.
-     - Update the database configuration in the backend.
+4. **Configure Database**
+   - Create a new PostgreSQL database
+   - Update `.env` file with your database credentials
 
 ### Running the Application
 
-1. **Start the backend server**:
-     ```bash
-     cd backend
-     npm start
-     ```
+1. **Start the Backend**
+   ```bash
+   cd backend
+   npm start
+   ```
 
-2. **Run the Flutter application**:
-     ```bash
-     flutter run
-     ```
+2. **Launch the App**
+   ```bash
+   cd frontend
+   flutter run
+   ```
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+We welcome contributions! Here's how you can help:
 
-## License
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This project is licensed under the MIT License.
+## 📝 License
 
-## Contact
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-For any questions or suggestions, please contact [your email].
+## 📬 Contact
+
+For questions or suggestions, please reach out to us:
+
+- Project Link: [https://github.com/codewmanas/taskease](https://github.com/codewmanas/taskease)
+- Report Issues: [Issue Tracker](https://github.com/codewmanas/taskease/issues)
+
+---
+
+<div align="center">
+Made with ❤️ by Manas Kolaskar
+</div>
